@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolTip", "ToolTip\ToolTip.csproj", "{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{8AE69DE3-F417-480E-81A3-A2B20CDA4348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenteredWindow", "CenteredWindow\CenteredWindow.csproj", "{711FA5B6-B70D-4399-93E8-FC68370818FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{711FA5B6-B70D-4399-93E8-FC68370818FB}.Debug|x86.ActiveCfg = Debug|x86
+		{711FA5B6-B70D-4399-93E8-FC68370818FB}.Debug|x86.Build.0 = Debug|x86
+		{711FA5B6-B70D-4399-93E8-FC68370818FB}.Release|x86.ActiveCfg = Release|x86
+		{711FA5B6-B70D-4399-93E8-FC68370818FB}.Release|x86.Build.0 = Release|x86
+		{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}.Debug|x86.ActiveCfg = Debug|x86
+		{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}.Debug|x86.Build.0 = Debug|x86
+		{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}.Release|x86.ActiveCfg = Release|x86
+		{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
