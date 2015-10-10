@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuitButton", "QuitButton\Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsolutePositioning", "AbsolutePositioning\AbsolutePositioning.csproj", "{45FBD970-214D-4339-B3E1-8E22DCFA79B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutBottomRightCorner", "LayoutBottomRightCorner\LayoutBottomRightCorner.csproj", "{E520D8AF-7B5B-462D-BF45-25C29BB3D796}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -33,5 +35,9 @@ Global
 		{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}.Debug|x86.Build.0 = Debug|x86
 		{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}.Release|x86.ActiveCfg = Release|x86
 		{8A05C3B8-D6A3-408B-AEE6-A2C1EC48F63A}.Release|x86.Build.0 = Release|x86
+		{E520D8AF-7B5B-462D-BF45-25C29BB3D796}.Debug|x86.ActiveCfg = Debug|x86
+		{E520D8AF-7B5B-462D-BF45-25C29BB3D796}.Debug|x86.Build.0 = Debug|x86
+		{E520D8AF-7B5B-462D-BF45-25C29BB3D796}.Release|x86.ActiveCfg = Release|x86
+		{E520D8AF-7B5B-462D-BF45-25C29BB3D796}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
