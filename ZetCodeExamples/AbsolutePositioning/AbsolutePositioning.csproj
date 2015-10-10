@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{711FA5B6-B70D-4399-93E8-FC68370818FB}</ProjectGuid>
+    <ProjectGuid>{45FBD970-214D-4339-B3E1-8E22DCFA79B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CenteredWindow</RootNamespace>
-    <AssemblyName>CenteredWindow</AssemblyName>
+    <RootNamespace>AbsolutePositioning</RootNamespace>
+    <AssemblyName>AbsolutePositioning</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,6 +34,11 @@
   <Import Project="..\Shared\Shared.projitems" Label="Shared" Condition="Exists('..\Shared\Shared.projitems')" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Compile Include="AbsolutePositioningExample.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
     <Reference Include="QtCoreSharp">
       <HintPath>..\..\lib\QtSharp\QtCoreSharp.dll</HintPath>
     </Reference>
@@ -43,10 +48,16 @@
     <Reference Include="QtWidgetsSharp">
       <HintPath>..\..\lib\QtSharp\QtWidgetsSharp.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CenteredWindowExample.cs" />
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\periya_kovil.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="images\western_ghats.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

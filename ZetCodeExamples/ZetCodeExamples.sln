@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenteredWindow", "CenteredW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuitButton", "QuitButton\QuitButton.csproj", "{343AF2DF-43D3-44DE-9BAC-68859BD19D35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsolutePositioning", "AbsolutePositioning\AbsolutePositioning.csproj", "{45FBD970-214D-4339-B3E1-8E22DCFA79B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{343AF2DF-43D3-44DE-9BAC-68859BD19D35}.Debug|x86.Build.0 = Debug|x86
 		{343AF2DF-43D3-44DE-9BAC-68859BD19D35}.Release|x86.ActiveCfg = Release|x86
 		{343AF2DF-43D3-44DE-9BAC-68859BD19D35}.Release|x86.Build.0 = Release|x86
+		{45FBD970-214D-4339-B3E1-8E22DCFA79B9}.Debug|x86.ActiveCfg = Debug|x86
+		{45FBD970-214D-4339-B3E1-8E22DCFA79B9}.Debug|x86.Build.0 = Debug|x86
+		{45FBD970-214D-4339-B3E1-8E22DCFA79B9}.Release|x86.ActiveCfg = Release|x86
+		{45FBD970-214D-4339-B3E1-8E22DCFA79B9}.Release|x86.Build.0 = Release|x86
 		{711FA5B6-B70D-4399-93E8-FC68370818FB}.Debug|x86.ActiveCfg = Debug|x86
 		{711FA5B6-B70D-4399-93E8-FC68370818FB}.Debug|x86.Build.0 = Debug|x86
 		{711FA5B6-B70D-4399-93E8-FC68370818FB}.Release|x86.ActiveCfg = Release|x86

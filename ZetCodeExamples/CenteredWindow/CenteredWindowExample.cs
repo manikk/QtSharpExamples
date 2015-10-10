@@ -4,13 +4,13 @@ using QtWidgets;
 
 namespace ToolTip
 {
-	public class QtSharpApp:QWidget
+	public class CenteredWindowExample:QWidget
 	{
 
 		const int WIDTH = 400;
 		const int HEIGHT = 150;
 
-		public QtSharpApp ()
+		public CenteredWindowExample ()
 		{
 			WindowTitle = "ZetCode Example : Centered Widget";
 			ToolTip = "This is a QtWidget";
@@ -28,15 +28,13 @@ namespace ToolTip
 			Move (centerX, centerY);
 		}
 
-
-
 		[STAThread]
-		public static void Main(string[] args)
+		public static int Main(string[] args)
 		{
 
 			QApplication application = Shared.QApplicationSingleton.GetQApplication(args);
-			QtSharpApp app = new QtSharpApp ();
-			QApplication.Exec ();
+			CenteredWindowExample app = new CenteredWindowExample ();
+			return QApplication.Exec ();
 		}
 	}
 

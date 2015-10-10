@@ -15,12 +15,12 @@ namespace ToolTip
 		}
 
 		[STAThread]
-		public static void Main(string[] args)
+		public static int Main(string[] args)
 		{
 
 			QApplication application = Shared.QApplicationSingleton.GetQApplication(args);
 			QtSharpApp app = new QtSharpApp ();
-			QApplication.Exec ();
+			return QApplication.Exec ();
 		}
 	}
 
