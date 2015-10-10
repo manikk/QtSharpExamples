@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsolutePositioning", "Abso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutBottomRightCorner", "LayoutBottomRightCorner\LayoutBottomRightCorner.csproj", "{E520D8AF-7B5B-462D-BF45-25C29BB3D796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedBoxLayout", "NestedBoxLayout\NestedBoxLayout.csproj", "{E992724A-914C-4FCD-9EC5-E2E8FABAA1DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -39,5 +41,9 @@ Global
 		{E520D8AF-7B5B-462D-BF45-25C29BB3D796}.Debug|x86.Build.0 = Debug|x86
 		{E520D8AF-7B5B-462D-BF45-25C29BB3D796}.Release|x86.ActiveCfg = Release|x86
 		{E520D8AF-7B5B-462D-BF45-25C29BB3D796}.Release|x86.Build.0 = Release|x86
+		{E992724A-914C-4FCD-9EC5-E2E8FABAA1DE}.Debug|x86.ActiveCfg = Debug|x86
+		{E992724A-914C-4FCD-9EC5-E2E8FABAA1DE}.Debug|x86.Build.0 = Debug|x86
+		{E992724A-914C-4FCD-9EC5-E2E8FABAA1DE}.Release|x86.ActiveCfg = Release|x86
+		{E992724A-914C-4FCD-9EC5-E2E8FABAA1DE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
